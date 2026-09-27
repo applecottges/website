@@ -19,7 +19,7 @@ export function MountainSilhouette({
       <svg
         viewBox="0 0 1440 260"
         preserveAspectRatio="none"
-        className="block h-[125px] w-full sm:h-[210px] md:h-[250px]"
+        className="block h-[85px] w-full sm:h-[135px] md:h-[165px]"
       >
         <defs>
           {/* Subtle gradient for distant alpine atmosphere */}

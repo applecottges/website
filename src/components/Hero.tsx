@@ -40,7 +40,7 @@ export default function Hero() {
 
       <MistBand />
 
-      <div className="relative z-[2] mx-auto flex min-h-[100svh] w-full max-w-7xl flex-col justify-center px-4 pt-28 pb-10 sm:px-6 sm:pt-36 sm:pb-16">
+      <div className="relative z-[10] mx-auto flex min-h-[100svh] w-full max-w-7xl flex-col justify-center px-4 pt-24 pb-28 sm:px-6 sm:pt-32 sm:pb-36 lg:pb-40">
         <div className="max-w-4xl">
           <div className="hero-rise inline-flex items-center gap-2 rounded-full bg-paper px-3.5 py-1.5 sm:px-4 sm:py-2 text-[10.5px] sm:text-[11px] font-extrabold tracking-[0.18em] text-ink uppercase" style={{ animationDelay: "0ms" }}>
             <span className="pulse-soft h-2 w-2 rounded-full bg-leaf" />
