@@ -25,11 +25,12 @@ export const metadata: Metadata = {
     "Apple Cottage Homestay & Cafe in Kalga, Parvati Valley offers private rooms and dorm stays with hot water, attached washrooms and free Wi-Fi. Enquire on WhatsApp.",
   icons: {
     icon: [
-      { url: "/apple_cottage.PNG", type: "image/png" },
+      { url: "/favicon.ico?v=2" },
+      { url: "/apple_cottage.PNG?v=2", type: "image/png" },
     ],
-    shortcut: "/apple_cottage.PNG",
+    shortcut: "/apple_cottage.PNG?v=2",
     apple: [
-      { url: "/apple_cottage.PNG", sizes: "180x180", type: "image/png" },
+      { url: "/apple_cottage.PNG?v=2", sizes: "180x180", type: "image/png" },
     ],
   },
 };
