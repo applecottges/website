@@ -23,6 +23,15 @@ export const metadata: Metadata = {
   title: `${SITE.name} — Cozy Mountain Stays in Kalga, Parvati Valley`,
   description:
     "Apple Cottage Homestay & Cafe in Kalga, Parvati Valley offers private rooms and dorm stays with hot water, attached washrooms and free Wi-Fi. Enquire on WhatsApp.",
+  icons: {
+    icon: [
+      { url: "/apple_cottage.PNG", type: "image/png" },
+    ],
+    shortcut: "/apple_cottage.PNG",
+    apple: [
+      { url: "/apple_cottage.PNG", sizes: "180x180", type: "image/png" },
+    ],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
