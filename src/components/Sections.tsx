@@ -230,7 +230,7 @@ export function Reviews() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24">
         <Reveal>
           <p className="eyebrow">Guest stories</p>
-          <h2 className="font-display mt-3 text-3xl font-semibold tracking-tight sm:text-[42px]">Loved by 12,000+ travellers</h2>
+          <h2 className="font-display mt-3 text-3xl font-semibold tracking-tight sm:text-[42px]">Loved by 2,500+ travellers</h2>
         </Reveal>
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {TESTIMONIALS.map((t, i) => (
