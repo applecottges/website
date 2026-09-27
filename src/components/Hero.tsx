@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { SITE } from "@/lib/site";
 import { useBooking } from "./BookingContext";
-import { IconStar, IconArrowDown, IconFlame } from "./Icons";
+import { IconStar, IconArrowDown, IconFlame, IconCheck } from "./Icons";
 import { MountainSilhouette, Snowfall, MistBand, Snowman } from "./Scene";
 
 export default function Hero() {
@@ -81,14 +81,21 @@ export default function Hero() {
           </div>
 
           <div
-            className="hero-rise mt-6 sm:mt-7 flex flex-wrap items-center gap-x-5 sm:gap-x-7 gap-y-2 text-[12px] sm:text-[13px] font-semibold text-white/75"
+            className="hero-rise mt-6 sm:mt-7 flex flex-wrap items-center gap-2 sm:gap-3 text-[12px] sm:text-[13px] font-semibold"
             style={{ animationDelay: "360ms" }}
           >
-            <span className="inline-flex items-center gap-1.5">
-              <IconStar className="h-3.5 w-3.5 text-brass" /> 4.8 · 1,280+ reviews
-            </span>
-            <span>Free reschedule once</span>
-            <span>Pickup from Bhuntar available</span>
+            <div className="inline-flex items-center gap-1.5 rounded-full bg-black/50 px-3.5 py-1.5 backdrop-blur-md border border-white/20 text-white shadow-sm">
+              <IconStar className="h-3.5 w-3.5 text-brass" />
+              <span>4.8 · 1,280+ reviews</span>
+            </div>
+            <div className="inline-flex items-center gap-1.5 rounded-full bg-black/50 px-3.5 py-1.5 backdrop-blur-md border border-white/20 text-white shadow-sm">
+              <IconCheck className="h-3.5 w-3.5 text-[#4ade80]" />
+              <span>Free reschedule once</span>
+            </div>
+            <div className="inline-flex items-center gap-1.5 rounded-full bg-black/50 px-3.5 py-1.5 backdrop-blur-md border border-white/20 text-white shadow-sm">
+              <IconCheck className="h-3.5 w-3.5 text-[#4ade80]" />
+              <span>Hot geyser & Wi-Fi included</span>
+            </div>
           </div>
         </div>
 

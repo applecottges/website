@@ -264,15 +264,15 @@ export function Location() {
           <div className="mt-6 space-y-3 text-[14px]">
             <div className="flex items-center gap-3 rounded-2xl bg-cream px-4 py-3">
               <IconMapPin className="h-4.5 w-4.5 shrink-0 text-pine" />
-              <span><b>Bhuntar</b> <span className="text-ink/60">· 31 km · 1.5 hrs · pickup available</span></span>
+              <span><b>Bhuntar Airport / Bus Stand</b> <span className="text-ink/60">· 31 km · 1.5 hrs drive</span></span>
             </div>
             <div className="flex items-center gap-3 rounded-2xl bg-cream px-4 py-3">
               <IconMapPin className="h-4.5 w-4.5 shrink-0 text-pine" />
-              <span><b>Kasol stand</b> <span className="text-ink/60">· 5–10 min walk to most stays</span></span>
+              <span><b>Barshaini Roadhead</b> <span className="text-ink/60">· 15–20 min scenic hike up to Kalga</span></span>
             </div>
             <div className="flex items-center gap-3 rounded-2xl bg-cream px-4 py-3">
               <IconCompass className="h-4.5 w-4.5 shrink-0 text-pine" />
-              <span><b>Treks</b> <span className="text-ink/60">· Chhalal 30 min · Tosh 1 hr · Kheerganga day trip</span></span>
+              <span><b>Nearby Treks</b> <span className="text-ink/60">· Kheerganga base · Tosh · Pulga & Tulga fairy forest</span></span>
             </div>
           </div>
           <div className="mt-7 flex flex-wrap gap-2.5">

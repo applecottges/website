@@ -136,7 +136,7 @@ export const TESTIMONIALS = [
   {
     name: "Nisha Kapoor",
     from: "Mumbai",
-    text: "Clean, warm and genuinely peaceful. The team made directions and pickup from Bhuntar very easy.",
+    text: "Clean, warm and genuinely peaceful. The team made directions and travel advice from Bhuntar very easy.",
     stay: "Room without Balcony",
     rating: 5,
   },
