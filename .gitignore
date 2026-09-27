@@ -37,11 +37,16 @@ yarn-error.log*
 # vercel
 .vercel
 
-# typescript cache
+# typescript cache & generated types
 *.tsbuildinfo
+next-env.d.ts
 
-# IDE and agent files
+# IDE, agent, and AI files
 .vscode/
 .idea/
 .agents/
 .gemini/
+.claude/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
